@@ -1,0 +1,31 @@
+
+  @media screen and (max-width:700px) {
+     
+     .logo{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     li{
+         width: 5vw;
+         display: block;
+     }
+     .search{
+        
+         display: none;
+         
+     }
+     nav{
+         width: 5vw;
+     }
+     .card{
+        width: 100vw;
+        margin: 0px;
+     }
+     .card-items img{
+            width: 146px;
+    }
+    .card-items{
+        margin: 14px;
+    }
+  }
