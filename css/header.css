@@ -1,0 +1,25 @@
+.logo img {
+  width: 49px;
+  margin: 6px 0px 0px 13px;
+}
+.logo {
+  display: inline-block;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  text-decoration: none;
+  word-spacing: 39px;
+  margin: 9px;
+  color: black;
+}
+header nav ul {
+  display: inline-block;
+  position: absolute;
+  top: 2%;
+  left: 61px;
+}
+nav{
+    height: 60px;
+}

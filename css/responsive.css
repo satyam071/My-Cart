@@ -1,31 +1,27 @@
 
-  @media screen and (max-width:700px) {
-     
-     .logo{
-         display: flex;
-         align-items: center;
-         justify-content: center;
-     }
-     li{
-         width: 5vw;
-         display: block;
-     }
-     .search{
-        
-         display: none;
-         
-     }
-     nav{
-         width: 5vw;
-     }
-     .card{
-        width: 100vw;
-        margin: 0px;
-     }
-     .card-items img{
-            width: 146px;
-    }
-    .card-items{
-        margin: 14px;
-    }
+  @media screen and (max-width:600px) {
+      .search{
+          visibility: hidden;
+      }
+      .card-items{
+        width: fit-content;
+      }
+  }
+  @media screen and (min-width:600px) {
+    p:hover {
+        color: peru;
+      }
+      .card-items {
+        width: 16%;
+      }
+}
+  @media screen and (max-width:352px) {
+    header nav ul li a {
+        font-size: 14px;
+      }
+  }
+  @media screen and (min-width:352px) {
+    header nav ul li a {
+        font-size: 22px;
+      }
   }

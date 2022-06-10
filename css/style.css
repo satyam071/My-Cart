@@ -1,119 +1,63 @@
-*{
-    padding:0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
 }
-:root{
-    --main-bg-color:#6737d0 ;
+:root {
+  --main-bg-color: #fdd037;
 }
-footer{
-    background-color: var(--main-bg-color);
-    color: black;
-    height: 10vh;
-    font-family: 'Baloo Bhai 2', cursive;
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Titillium Web', sans-serif;
+footer {
+  background-color: white;
+  color: black;
+  height: 10vh;
 }
-header{
-    
-    background-color: var(--main-bg-color);
-    font-family: 'Baloo Bhai 2', cursive;
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Titillium Web', sans-serif;
+.container {
+  min-height: calc(100vh - 10vh - 10vh);
+  background-color: #fdd037;
 }
-nav ul li{
-    list-style: none;
-    padding: 0 23px;
+.cover {
+  width: 100%;
+}
+.search {
+  display: flex;
+  align-items: center;
+  width: 30vw;
+}
+#searchbar {
+  width: 30vw;
+  height: 45px;
+  border-radius: 5px;
+  padding: 0px 12px;
+  position: absolute;
+  top: 5px;
+  left: 352px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  background-color: #fdd037;
+  display: inline-block;
+  width: 100%;
+}
+.card h2 {
+  margin: 12px auto;
+  text-align: center;
+}
+.lines {
+  text-align: center;
+}
+.card-items {
+  height: fit-content;
+  display: inline-block;
+  margin: 20px;
+  border: 2px solid white;
+  background-color: #12adc1;
+}
 
+.nav_bar {
+  width: 100%;
+  height: 60px;
 }
-nav ul{
-    height: 10vh;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 3vh;
-    
-}
-nav ul li a:hover{
-    color: #e4bc6b;
-    font-size: 3.5vh;
-}
-nav{
-    display: flex;
-}
-/* .logo{
-    display: flex;
-    align-items: center;
-} */
-.logo img{
-    width: 130px;
-    float: left;
-   
-}
-.container{
-min-height: calc(100vh - 10vh - 10vh);
-}
-.cover{
-    width: 100vw;
-    
-}
-.search{
-    display: flex;
-    align-items: center;
-    width: 30vw;
-}
-#searchbar{
-    width: 30vw;
-    height: 5vh;
-    border-radius: 5px;
-    padding: 0px 12px;
-    
-}
-.icon{
-    width: 2vw;
-    border-radius: 50%;
-}
-.btn{
-    height: 31px;
-    background-image: url('img/icon.jpg');
-    border-radius: 50%;
-margin: 5px;
-}
-.btn:hover{
-    border: 2px solid purple;
-}
-.card{
-   display: flex;
-   justify-content: center;
-   background-color: #f1e835;
-   display: inline-block;
-   width: 93vw;
-   margin: 0 39px;
-
-}
-.card h2{
-    font-family: 'Baloo Bhai 2', cursive;
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Titillium Web', sans-serif;
-    margin: 12px auto;
-    text-align: center;
-
-}
-.lines{
-    text-align: center;
-}
-.card-items{
-    width: 14.vw;
-    height: 43vh;
-    display: inline-block;
-    margin: 20px;
-    border: 2px solid white;
-    background-color: white;
-   
-}
-p:hover{
- color: peru;
+.icon {
+  width: 20px;
 }

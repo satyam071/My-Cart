@@ -5,8 +5,17 @@
 }
 .card2{
     margin: 15px 0px;
+    background-color: #fdd037;
 }
 
 .card3{
     margin: 15px 0px;
+}
+.card{
+    background-color: #fdd037;
+}
+.frame_1{
+    height: fit-content;
+    width: fit-content;
+    background-color: #fdd037;
 }
