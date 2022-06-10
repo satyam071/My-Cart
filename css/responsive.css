@@ -11,6 +11,15 @@
     p:hover {
         color: peru;
       }
+      #searchbar {
+        width: 30vw;
+        height: 45px;
+        border-radius: 5px;
+        padding: 0px 12px;
+        position: absolute;
+        top: 5px;
+        left: 352px;
+      }
       .card-items {
         width: 16%;
       }
